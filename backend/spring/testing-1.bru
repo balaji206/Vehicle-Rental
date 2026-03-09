@@ -1,0 +1,20 @@
+meta {
+  name: testing-1
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8080
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    
+    "email": "balaji@example.com",
+    "password": "12345"
+  }
+  
+}
